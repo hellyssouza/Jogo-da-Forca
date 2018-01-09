@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conteudo>
+  <Lista categoria="Carros">
+    <Palavra codigo="1">Gol</Palavra>
+    <Palavra codigo="2">Palio</Palavra>
+    <Palavra codigo="3">Golf</Palavra>
+    <Palavra codigo="4">Uno</Palavra>
+    <Palavra codigo="5">Fox</Palavra>
+    <Palavra codigo="6">Celta</Palavra>
+    <Palavra codigo="7">Jeep</Palavra>
+    <Palavra codigo="8">Onix</Palavra>
+    <Palavra codigo="9">Argo</Palavra>
+    <Palavra codigo="10">Amarok</Palavra>
+  </Lista>
+    
+  <Lista categoria="Nomes">
+    <Palavra codigo="1">Maria</Palavra>
+    <Palavra codigo="2">Ronal</Palavra>
+    <Palavra codigo="3">Paulo</Palavra>
+    <Palavra codigo="4">Gabriela</Palavra>
+    <Palavra codigo="5">Joyce</Palavra>
+    <Palavra codigo="6">Joana</Palavra>
+    <Palavra codigo="7">Patricia</Palavra>
+    <Palavra codigo="8">Jessica</Palavra>
+    <Palavra codigo="9">Beatriz</Palavra>
+    <Palavra codigo="10">Matheus</Palavra>
+  </Lista>
+</Conteudo>

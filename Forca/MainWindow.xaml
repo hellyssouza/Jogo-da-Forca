@@ -1,0 +1,46 @@
+﻿<Window x:Class="Forca.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forca"
+        mc:Ignorable="d"
+        Title="Jogo da Forca" Height="448.519" Width="815.37">
+    <StackPanel HorizontalAlignment="Left" Height="416" VerticalAlignment="Top" Width="805">
+        <Grid x:Name="conteudo_jogo" Height="292">
+            <GroupBox Header="Chances de Erro" HorizontalAlignment="Left" Height="100" Margin="605,108,0,0" VerticalAlignment="Top" Width="107">
+                <TextBlock x:Name="numero_tentativas" HorizontalAlignment="Left" Margin="34,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="36"/>
+            </GroupBox>
+            <TextBlock x:Name="nome_categoria" HorizontalAlignment="Left" Margin="295,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="71,47,0,0" VerticalAlignment="Top" Width="519"/>
+            <Separator HorizontalAlignment="Left" Height="100" Margin="71,192,0,0" VerticalAlignment="Top" Width="519"/>
+            <Separator HorizontalAlignment="Left" Height="100" Margin="505,107,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.07"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="100" Margin="-14,106,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.07"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <TextBox x:Name="digito" HorizontalAlignment="Left" Height="36" MaxLength="1" Margin="262,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" FontSize="22" TextAlignment="Center" TextChanged="TextBox_TextChanged"/>
+            <TextBlock x:Name="palavra_escolhida" HorizontalAlignment="Left" Margin="184,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+        </Grid>
+        <Grid x:Name="definicao_jogo" Height="122">
+            <ComboBox x:Name="categorias" HorizontalAlignment="Left" Margin="303,43,0,0" VerticalAlignment="Top" Width="190" Height="28" FontSize="16" SelectionChanged="categorias_SelectionChanged"/>
+            <Button x:Name="iniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="303,76,0,0" VerticalAlignment="Top" Width="190" Height="29" FontSize="18" Click="iniciar_Click"/>
+            <TextBlock HorizontalAlignment="Left" Margin="297,13,0,0" TextWrapping="Wrap" Text="Selecione Uma Categoria" VerticalAlignment="Top" FontSize="18"/>
+        </Grid>
+    </StackPanel>
+</Window>
